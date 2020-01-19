@@ -1,0 +1,162 @@
+body{font-family: lato;
+margin: 0%;}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0%;
+}
+
+.header{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 1000%;
+	width: 100%;
+}
+
+.container{width: 100%;
+	max-width: 1100px;}
+
+.header_inner{
+	margin-top: 60.8PX;	
+	margin-left: 166.45px;
+	margin-right: 201px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.header_logo1{
+letter-spacing: 5px;}
+
+.nav{
+	font-family: Lato;
+	font-style: normal;
+	/*font-weight: bold;*/
+	font-size: 14px;
+	line-height: 17px;
+	align-items: center;}
+
+.nav_links{
+	text-decoration: none;
+	color: #ffff;
+	margin-left: 20px;
+}
+
+.nav_links:hover {
+	text-decoration: underline;
+}
+
+.sing{font-family: lato;
+	color: #ffff;
+	margin-left: 29px;
+	margin-right: 29px;
+	margin-top: 11px;
+	margin-bottom: 12px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+/* identical to box height */
+
+align-items: center;
+text-align: center;
+}
+
+.border_sing{border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;}
+
+.intro__img {height: 782px;
+	background-image: 
+	url(../image/Bg.png);
+	/*display: flex;
+	flex-direction: column;*/
+}
+
+.intro__title {
+padding-top: 257px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+}
+
+	
+.intro__title2{
+text-align: center;
+color: #FFFFFF;
+padding-top: 30px;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+}
+
+.button_sign{
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+	color: rgba(255, 255, 255, 0.349);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 6px;
+	padding: 17px 52px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.intro2 {
+	height: 500px;
+	background: #FFFFFF;
+}
+
+.img_intro2 {
+	
+}
+
+.text__intro1{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: #000000;
+	padding-bottom: 24px;
+	margin-top: 140px;
+	margin-left: 165px;
+	
+	
+}
+
+.text__intro2 {
+	color: #000000;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	margin-left: 165px;
+}
+
+.link1 {color:#ED4C5C;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: justify;
+	text-decoration: none;
+	margin-left: 165px;
+}
+
+.link1:hover {
+	text-decoration: underline;
+}
+
+.img_text_intro2 {
+	padding: 95px;
+
+}
